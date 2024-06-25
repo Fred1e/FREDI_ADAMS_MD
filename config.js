@@ -7,8 +7,8 @@ global.audio= "" ;
 global.video= "" ;
 global.port =process.env.PORT
 global.appUrl=process.env.APP_URL || ""                       // put your app url here,
-global.email ="ngoyaibraah@gmail.com"
-global.location="Nairobi,Kenya."
+global.email ="frediezra60@gmail.com"
+global.location="Arusha,Tanzania."
 
 
 global.mongodb= process.env.MONGODB_URI || ""
@@ -17,16 +17,16 @@ global.blockJids= process.env.BLOCK_JID || "null"
 global.DATABASE_URL = process.env.DATABASE_URL || ""
 
 global.timezone= process.env.TZ || process.env.TIME_ZONE || "Africa/Kenya";
-global.github=process.env.GITHUB|| "https://github.com/ibrahimaitech/BLACK-PANTHER-MD/tree/main";
-global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VaZuGSxEawdxZK9CzM0Y";
+global.github=process.env.GITHUB|| "https://github.com/fred1e/FREDI-ADAMS-MD/tree/main";
+global.gurl  =process.env.GURL  || "https://whatsapp.com/channel/0029VafeCKHKmCPMtW3bFA08";
 global.website=process.env.GURL || "https://chat.whatsapp.com/GoPZhE9zc6Y3ul0RnD4HXw" ; 
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/e5834a2b98545c5c963d2.jpg" ; // SET LOGO FOR IMAGE 
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://telegra.ph/file/a8b74780a8d18240b1d82.jpg" ; // SET LOGO FOR IMAGE 
 
 
 
-global.devs = "254710772666,255620814108, 255766352895" // Developer Contact
+global.devs = "255764182801, 255620814108, 255766352895" // Developer Contact
 global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "null";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254710772666,255620814108, 255766352895";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "255764182801, 255620814108, 255766352895";
 
 
 
@@ -49,17 +49,17 @@ global.waPresence= process.env.WAPRESENCE ||  "set according to your need" ; // 
 //========================= [ AUTO READ MSGS & CMDS ] =========================\\
 global.readcmds = process.env.READ_COMMAND || "false"
 global.readmessage = process.env.READ_MESSAGE || "false"
-global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254710772666";
+global.readmessagefrom = process.env.READ_MESSAGE_FROM || "255764182801";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
 global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
-global.save_status_from =  process.env.SAVE_STATUS_FROM  || "255620814108, 255766352895,254710772666";
-global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254710772666,254710772666255762190568,255679513639";
+global.save_status_from =  process.env.SAVE_STATUS_FROM  || "255620814108, 255766352895,255764182801";
+global.read_status_from =  process.env.READ_STATUS_FROM  ||  "255764182801,255766352895255762190568,255620814108";
 
 global.api_smd = "https://api-smd-1.vercel.app"
-global.scan = "https://wa.link/4wz6zv";
+global.scan = "https://wa.link/1eyv9w";
 
 
 global.SESSION_ID = process.env.SESSION_ID ||  "" ;
@@ -72,10 +72,10 @@ module.exports = {
   HANDLERS: process.env.PREFIX  || ".",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.1",
-  caption : process.env.CAPTION || "FREDI_ADAMS_MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
+  caption : process.env.CAPTION || "FREDI_ADAMS_MD✅" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ FREDI²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@FreetechonlinetvT1info0"),
  
   author : process.env.PACK_AUTHER|| "Mr Fredi",
-  packname: process.env.PACK_NAME || "🐯",
+  packname: process.env.PACK_NAME || "🦁",
   botname : process.env.BOT_NAME  || "FREDI_ADAMS_MD",
   ownername:process.env.OWNER_NAME|| "Mr Fredi",
 
